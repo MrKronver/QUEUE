@@ -27,10 +27,9 @@ public class QueueStructure {
 
     public void removeFromQueue(int counter) {
         Queue<Integer> removing = new LinkedList<>();
-
         removing.remove(counter);
 
-        System.out.println("Person " + counter + " removed");
+        System.out.println("One Person removed");
         System.out.println("People left " + counter);
 
         queueStructureLaws();
